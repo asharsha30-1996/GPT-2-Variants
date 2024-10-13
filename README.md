@@ -29,6 +29,6 @@ As part of this assignment, I experimented with the following architectures. Ini
 | RoPE + Grouped Query                        | 5000        | 3.57 and hella accuracy: 0.2741   | Slightly better than baseline     |
 
 
-Apart from this, we also increased the context window to 2048 and the embedding size to 1024 for both the baseline and the RoPE + Grouped Query architectures. As a result, we observed a significant increase in HellaSwag accuracy. However, due to resource and time constraints, and since this idea was explored at the last minute, we were only able to run 10k iterations. At 10k iterations, we achieved an accuracy of 0.314 for the Grouped Query + RoPE architecture and 0.302 for the baseline model. I am really excited to see how the results unfold after reaching 19,650 iterations.
+Apart from this, we also increased the context window to 2048 and the embedding size to 1024 for both the baseline and the RoPE + Grouped Query architectures. As a result, we observed a significant increase in HellaSwag accuracy. However, due to resource and time constraints, and since this idea was explored at the last minute, we were only able to run 9000 iterations. At 9000 iterations, we achieved an accuracy of 0.314 for the Grouped Query + RoPE architecture and 0.302 for the baseline model. I am really excited to see how the results unfold after reaching 19,650 iterations.
 
 
