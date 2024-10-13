@@ -32,3 +32,19 @@ As part of this assignment, I experimented with the following architectures. Ini
 Apart from this, we also increased the context window to 2048 and the embedding size to 1024 for both the baseline and the RoPE + Grouped Query architectures. As a result, we observed a significant increase in HellaSwag accuracy. However, due to resource and time constraints, and since this idea was explored at the last minute, we were only able to run 9000 iterations. At 9000 iterations, we achieved an accuracy of 0.314 for the Grouped Query + RoPE architecture and 0.302 for the baseline model. I am really excited to see how the results unfold after reaching 19,650 iterations.
 
 
+**SWIGLU+ROPE+RMS: (Sample Output Screen)**
+
+![image](https://github.com/user-attachments/assets/707431d6-4e1b-4bf4-bd18-d38d0ae588d7)
+
+**RoPE+GroupedQuery – (Sample Output Screen)**
+
+![image](https://github.com/user-attachments/assets/706b4b13-9688-44e9-8081-0cc4f2420b2e)
+
+**Rope+GELU (No POS Encoding) (Sample Output Screen)**
+
+![image](https://github.com/user-attachments/assets/521b0b09-6825-40d4-b4f6-835d1bdccc32)
+
+
+
+
+
