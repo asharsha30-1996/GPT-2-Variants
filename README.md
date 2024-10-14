@@ -44,6 +44,44 @@ Apart from this, we also increased the context window to 2048 and the embedding 
 
 ![image](https://github.com/user-attachments/assets/521b0b09-6825-40d4-b4f6-835d1bdccc32)
 
+**Performance of Grouped Query+RoPE Architecture (With same context window size and Embedding)**
+
+Training Loss:
+
+<img width="587" alt="image" src="https://github.com/user-attachments/assets/8166fc25-7bd7-43af-b3f2-d228ff9e0b8e">
+
+Validation Loss:
+
+<img width="589" alt="image" src="https://github.com/user-attachments/assets/1b90442a-fcf3-4d65-a7ab-57ca14ab2c6d">
+
+HellaSwag Accuracy:
+
+<img width="583" alt="image" src="https://github.com/user-attachments/assets/46ccd27b-5e27-4618-b234-f4ede710139c">
+
+**Performance of Modified Baseline with modified context and embedding size)**
+
+Training Loss:
+
+<img width="563" alt="image" src="https://github.com/user-attachments/assets/1355302b-530d-4c92-8293-2ef1fd6052b1">
+
+Validation Loss:
+
+<img width="563" alt="image" src="https://github.com/user-attachments/assets/4d3c669e-f315-44c5-94f0-293cd34602a2">
+
+HellaSwag Loss:
+
+<img width="557" alt="image" src="https://github.com/user-attachments/assets/476fb903-e1a5-4932-9f24-b2cfeb98753e">
+
+Using Grouped_Query+Rope+Modified context and embedding size would have been even better as we got even better results (0.3224 accuracy at 10k iterations vs 0.302 accuracy at 19650 of baseline) but sadly we lost as runtime occured resulting in crash of our log data.
+
+
+
+
+
+
+
+
+
 
 
 
